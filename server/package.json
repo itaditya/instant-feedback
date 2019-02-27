@@ -1,0 +1,31 @@
+{
+  "name": "instant-feedback-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "git push heroku master",
+    "knex": "knex"
+  },
+  "keywords": [],
+  "author": "Aditya Agarwal <adityaa803@gmail.com> (http://adi.surge.sh/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "knex": "^0.15.2",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "pg": "^7.5.0",
+    "superagent": "latest",
+    "twit": "^2.2.9"
+  },
+  "description": ""
+}
